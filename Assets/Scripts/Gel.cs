@@ -54,6 +54,7 @@ public class Gel : MonoBehaviour
         }
         tempoPulado -= Time.deltaTime;
 
+
         if(this.transform.position.y < -14f)
         {
             this.transform.position = posicaoInicial;
